@@ -31,7 +31,7 @@ main {
 }
 
 section {
-    background-image: url("https://www.istockphoto.com/vector/two-white-dices-isolated-on-background-with-shadow-dice-gambling-white-cubes-gm912138742-251116674");
+    
     background-color: var(--color5);
     width: 1000px;
     max-width: 80%;
