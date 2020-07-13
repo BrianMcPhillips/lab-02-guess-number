@@ -6,7 +6,7 @@ const triesRemaining = document.querySelector('#guesses-remaining');
 const highOrLow = document.querySelector('#guess-was');
 const resultDisplay = document.querySelector('#result-display');
 const resetButton = document.querySelector('#reset');
-const background = document.getElementById('#main-section');
+
 
 // initialize state
 let attemptsLeft = 4;
@@ -24,6 +24,7 @@ userSubmit.addEventListener('click', () => {
     const finalResult = convertStrings(result);
     highOrLow.textContent = finalResult;
 
+    
     if (result === 0) {
         resultDisplay.textContent = 'You win!';
         userNumber.disabled = true;
@@ -34,8 +35,7 @@ userSubmit.addEventListener('click', () => {
         resultDisplay.textContent = 'You lose';
         userNumber.disabled = true;
         userSubmit.disabled = true;
-        background.style.color = 'red';
-    }
+    } 
 });
 
 resetButton.addEventListener('click', () =>{

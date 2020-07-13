@@ -17,3 +17,5 @@ export function convertStrings(resultCon) {
 export function randomThrow() {
     return Math.ceil(Math.random() * 20);
 }
+
+
