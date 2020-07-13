@@ -1,1 +1,1 @@
-import './invalidNumber.test.js';
+import './GuessANumber.test.js';
