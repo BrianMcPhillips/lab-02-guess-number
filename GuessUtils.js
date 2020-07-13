@@ -10,8 +10,8 @@ export function compareNumbers(player, computer) {
 
 export function convertStrings(resultCon) {
     if (resultCon === 0) return 'Congratulations!';
-    if (resultCon === -1) return 'too low';
-    if (resultCon === 1) return 'too high';
+    if (resultCon === -1) return 'Too low';
+    if (resultCon === 1) return 'Too high';
 }
 
 export function randomThrow() {
